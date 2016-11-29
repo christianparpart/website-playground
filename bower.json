@@ -1,0 +1,22 @@
+{
+  "name": "website-playground",
+  "authors": [
+    "Christian Parpart <trapni@gmail.com>"
+  ],
+  "description": "A Website",
+  "main": "Gruntfile.js",
+  "license": "MIT",
+  "homepage": "https://localhost:8443/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}

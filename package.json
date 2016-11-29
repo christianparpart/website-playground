@@ -1,0 +1,25 @@
+{
+  "name": "website-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "connect-livereload": "^0.6.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-open": "^0.2.3",
+    "matchdep": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-less": "^1.4.0",
+    "serve-static": "^1.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Parpart",
+  "license": "MIT"
+}
