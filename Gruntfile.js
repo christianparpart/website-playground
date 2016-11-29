@@ -28,7 +28,7 @@ module.exports = function (grunt) {
         },
         connect: {
           options: {
-            protocol: 'http',
+            protocol: 'http', // 'https'
             hostname: 'localhost',
             keepalive: true,
             port: 9000,
@@ -40,7 +40,6 @@ module.exports = function (grunt) {
               middleware: function (connect) {
                 return [
                   require('connect-livereload')(),
-                  connect().use('/bower_components', serveStatic('./bower_components')),
                   serveStatic('./app')
                 ];
               }

@@ -1,4 +1,4 @@
 .DS_Store
 /app/styles/*.css
-/bower_components
+/app/components
 /node_modules
